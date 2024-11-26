@@ -27,10 +27,10 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <!-- <span class="d-block d-lg-none">Zachary Crownover</span>
+      <span class="d-block d-lg-none">Zachary Crownover</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span> -->
+      </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -95,7 +95,37 @@
       <div class="w-100">
         <h2 class="mb-5">Portfolio</h2>
 
-        <div class="subheading mb-3">In-Development Titles</div>
+        <!-- <div class="subheading mb-3">In-Development Titles</div>
+        <ul class="list-inline row">
+          <li class="list-inline-item col-sm">
+            <a href="https://store.steampowered.com/app/1492430/Rift_World/" target="_blank">
+              <img class="img-fluid mx-auto mb-2 w-100" src="img/RiftWorld.jpg" alt="">
+            </a>
+          </li>
+          <li class="list-inline-item col-sm">
+            <h4><a href="https://store.steampowered.com/app/1492430/Rift_World/" target="_blank"><b>Rift World</b></a></h4>
+            <h5>Engine/Framework: Unity</h5>
+            <h5>Platforms: Windows</h5>
+            <h5>Languages: C#</h5>
+            <p>Rift World is a fast-paced, hardcore FPS being created by Cerulean Interactive, and for which I have been brought on to perform various tasks related to polishing the game for release. At this point in development, my principal duties revolve around player ability implementations, bug fixes, performance optimization, and gamepad support implementation.</p>
+          </li>
+        </ul> -->
+
+        <div class="subheading mb-3">Released Titles</div>
+        <ul class="list-inline row">
+          <li class="list-inline-item col-sm">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j76LZRBEQ4I?si=t0rghCoHWlfyMmiH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </li>
+          <li class="list-inline-item col-sm">
+            <h4><b>Towers of Aghasba</b></h4>
+            <h5>Engine/Framework: Unreal Engine 5</h5>
+            <h5>Platforms: Windows, PlayStation 5</h5>
+            <h5>Languages: C++, Blueprint</h5>
+            <p>Towers of Aghasba is an open world action/adventure/builder game in which the player sets out to revitalize their estranged homeland by restoring its once-vibrant ecosystems and settlements. Throughout this project, I was privileged to play a part in implementing and modifying many of its systems. Examples include, but are most definitely not limited to: utilizing our entity/proxy pattern to implement converting stations which repurpose and transform items on timers, regardless of the player's location in the world; refactoring gliding and mount controls to be camera-relative instead of character-relative; implementing the main map (along with the icons that populate it); implementing our landmark system for "region/site entered" notifications and associated region/site-driven gameplay effects; heading much of our PS5-specific endeavors (e.g. TRC compliance, trophies, activities, online-specific requirements, etc.); implementing our melee auto-targeting mechanics; implementing our subtitle system; serving as liason between the engineering and design teams; lots and lots and lots of debugging.</p>
+          </li>
+        </ul>
         <ul class="list-inline row">
           <li class="list-inline-item col-sm">
             <a href="https://store.steampowered.com/app/1492430/Rift_World/" target="_blank">
@@ -110,8 +140,6 @@
             <p>Rift World is a fast-paced, hardcore FPS being created by Cerulean Interactive, and for which I have been brought on to perform various tasks related to polishing the game for release. At this point in development, my principal duties revolve around player ability implementations, bug fixes, performance optimization, and gamepad support implementation.</p>
           </li>
         </ul>
-
-        <div class="subheading mb-3">Released Titles</div>
         <ul class="list-inline row">
           <li class="list-inline-item col-sm">
             <a href="https://store.steampowered.com/app/1705760/Payload/" target="_blank">
@@ -240,7 +268,7 @@
             <p><i>Payload (2D)</i>'s a novel take on a <i>Sokoban</i>-style game in which the player's able to manipulate the playing field by independently switching between 1D and 2D, as well as between Cartesian and polar coordinate spaces. This format forces the player to reconceptualize the rote mechanics of pushing objects and navigating a finite, discretely partitioned space.</p>
           </li>
         </ul>
-        <ul class="list-inline row">
+        <!-- <ul class="list-inline row">
           <li class="list-inline-item col-sm">
             <img class="img-fluid mx-auto mb-2" src="img/ExNihiloGameplay.gif" alt="">
           </li>
@@ -263,7 +291,7 @@
             <h5>Languages: C, C++, GLSL</h5>
             <p>A hybridization of the classic shoot-em-up and 2D fighter styles, <i>Hexpatriates</i> pits two players against each other in a periodically shrinking arena. Both players begin the round within their respective ships, but are forcefully ejected upon taking damage. When outside of their ship, a player character's moveset and gravitational constraints expectedly change, but should they avoid their enemy's onslaught long enough, they will eventually regain their lost ship.</p>
           </li>
-        </ul>
+        </ul> -->
 
       </div>
     </section>
@@ -338,10 +366,13 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
-            Unreal Engine 4</li>
+            Unreal Engine 5</li>
           <li>
             <i class="fa-li fa fa-check"></i>
             Unity</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Godot</li>
           <li>
             <i class="fa-li fa fa-check"></i>
             ORX</li>
@@ -358,12 +389,12 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             Capable of providing detailed and accurate project timeline estimates upon request, and working with relevant parties to adjust them, design permitting.</li>
+          <!-- <li>
+            <i class="fa-li fa fa-check"></i>
+            Comfortable using UML to architect class and system hierarchies.</li> -->
           <li>
             <i class="fa-li fa fa-check"></i>
-            Comfortable using UML to architect class and system hierarchies.</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Familiar with using resources such as Jira and GIT to expedite workflows and facilitate the interoperation of my work with that of my teammates.</li>
+            Familiar with using resources such as Jira, Perforce, and GIT to expedite workflows and facilitate the interoperation of my work with that of my teammates.</li>
           <li>
             <i class="fa-li fa fa-check"></i>
             Has excellent communication skills fostered by years of writing both academically and creatively.</li>
@@ -404,12 +435,34 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Staff Software Engineer</h3>
+            <div class="subheading mb-3">Dreamlit Inc.</div>
+            <p>Responsible for code reviews, as well as implementing, maintaining, and improving various gameplay and UI systems/mechanics. Also, I serve as liason between the engineering and design teams to help ensure they are in agreement on both what can and ought to be tackled at any given time.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2024 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Generalist Software Engineer</h3>
+            <div class="subheading mb-3">Dreamlit Inc.</div>
+            <p>Responsible for implementing, maintaining, and improving various gameplay and UI systems/mechanics.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2021 - January 2024</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">Lead Programmer</h3>
             <div class="subheading mb-3">CelleC Games / Black Banshee Studios</div>
             <p>Responsible for code reviews, mentoring more junior programmers, assessing scope of pitched projects, writing technical documentation for the programming team, and programming for our games as necessary.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">February 2021 - Present</span>
+            <span class="text-primary">February 2021 - December 2021</span>
           </div>
         </div>
 
@@ -420,7 +473,7 @@
             <p>Responsible for every aspect of game development, including gameplay, systems and UI programming; game design; sound design and music composition/production; art; QA testing, and distribution.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">December 2017 - Present</span>
+            <span class="text-primary">December 2017 - February 2021</span>
           </div>
         </div>
 
